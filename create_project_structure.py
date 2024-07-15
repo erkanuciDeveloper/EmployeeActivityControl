@@ -12,9 +12,12 @@ directories = [
     "src/infrastructure/scripts/data_collection",
     "src/infrastructure/scripts/models",
     "src/infrastructure/models/saved_models",
+    "src/infrastructure/logs",
+    "src/infrastructure/exceptions",
     "tests/unit",
     "tests/integration",
     "tests/e2e",
+    "docs",
     ".vscode",
 ]
 
@@ -36,6 +39,10 @@ files = [
     "src/domain/utils/model_utils.py",
     "src/presentation/app/app.py",
     "src/presentation/app/requirements.txt",
+    "src/infrastructure/exceptions/custom_exceptions.py",
+    "docs/requirements.md",
+    "docs/design.md",
+    "docs/api.md",    
     "setup.py",
     ".vscode/settings.json",  # Include settings.json in .vscode directory
     "README.md",
